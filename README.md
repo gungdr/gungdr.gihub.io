@@ -1,2 +1,2 @@
-# gungdr.gihub.io
+# gungdr.github.io
 github pages
