@@ -7,34 +7,15 @@
 </head>
 <body>
 
-<!--   <audio preload="auto" autoplay id='player'>
-    <source src="Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
-    <source src="Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
-  </audio>
- -->
-
-<!--  <div data-video="kgLdYFNZySA"  
-         data-autoplay="0"         
-         data-loop="1"             
-         id="player">
-  </div>
-  <script src="https://www.youtube.com/iframe_api"></script>
-  <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script> -->
-
-<!-- Place in Body where you'd like intro to appear -->
 <div class="star-wars-intro">
-
-  <!-- Blue Intro Text -->
   <p class="intro-text">
     Not so long ago, in a galaxy not so far away….
   </p>
 
-  <!-- Logo Image or Text goes in here -->
   <h2 class="main-logo">
    <img src="ar.png" alt="Agung & Rita">
   </h2>
 
-  <!-- All Scrolling Content Goes in here -->
   <div class="main-content">
 
     <div class="title-content">
@@ -79,7 +60,6 @@ And after all,
 a good time will be had by all.
 </p>
 
-      <!-- button or link or whatever -->
       <a href="https://goo.gl/SqYY66" target="_blank" class="space-button">Go to the venue Now!</a>
         
     </div>
@@ -87,36 +67,10 @@ a good time will be had by all.
 </div>
  <iframe style="display:none;" width="0" height="0" src="https://www.youtube.com/embed/7jK-jZo6xjY?autohide=1&autoplay=1&&iv_load_policy=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 <script>
-(function(){
-  // var player= document.getElementById('player');
-  // var el = document.getElementById('player');
-  // var player = new YT.Player('player',{
-  //   height:'0',
-  //   width:'0',
-  //   videoId : el.dataset.video,
-  //   playerVars :{
-  //     autoplay : el.dataset.autoplay,
-  //     loop:el.dataset.loop
-  //   },
-  //   events:{
-  //     'onReady':function(e){
-  //       player.setPlaybackQuality("small");
-  //     }
-  //   }
-  // });
-  // if( player.getPlayerState() === YT.PlayerState.PLAYING
-  //   ||player.getPlayerState() === YT.PlayerState.BUFFERING ){
 
-  //   player.pauseVideo();
-  // }else{
-  //   player.playVideo();
-  // }
-  // player.load();
-  // player.play();
-  // console.log('playing');  
-})();
-</script>
-<script>
+setTimeout(function(){
+  location.reload();
+},120000);
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
