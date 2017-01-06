@@ -56,7 +56,7 @@ body, html{
   text-align: justify;
   overflow: hidden;
   transform-origin: 50% 100%;
-  transform: perspective(350px) rotateX(25deg);
+  transform: perspective(250px) rotateX(25deg);
 }
 
 .star-wars-intro .main-content:after {
@@ -195,9 +195,10 @@ body, html{
   100% { top: -170%; }
 }
 
-@media screen and (max-width: 720px) {
+@media all and (min-width: 360px)  and (max-width:981px) {
   .star-wars-intro .main-content {
-    font-size: 35px;
+    /*font-size:  35px;*/
+     transform: perspective(800px) rotateX(25deg) !important; 
   }
   .star-wars-intro .title-content {
     position: absolute;
