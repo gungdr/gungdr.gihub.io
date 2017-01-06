@@ -7,10 +7,19 @@
 </head>
 <body>
 
-  <audio preload="auto" autoplay id='player'>
+<!--   <audio preload="auto" autoplay id='player'>
     <source src="Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
     <source src="Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
   </audio>
+ -->
+
+<!--  <div data-video="kgLdYFNZySA"  
+         data-autoplay="0"         
+         data-loop="1"             
+         id="player">
+  </div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script> -->
 
 <!-- Place in Body where you'd like intro to appear -->
 <div class="star-wars-intro">
@@ -76,12 +85,35 @@ a good time will be had by all.
     </div>
   </div>
 </div>
+ <iframe style="display:none;" width="0" height="0" src="https://www.youtube.com/embed/UKRIUiyF0N4?autohide=1&autoplay=1&&iv_load_policy=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 <script>
 (function(){
-  var player= document.getElementById('player');
-  player.load();
-  player.play();
-  console.log('playing');  
+  // var player= document.getElementById('player');
+  // var el = document.getElementById('player');
+  // var player = new YT.Player('player',{
+  //   height:'0',
+  //   width:'0',
+  //   videoId : el.dataset.video,
+  //   playerVars :{
+  //     autoplay : el.dataset.autoplay,
+  //     loop:el.dataset.loop
+  //   },
+  //   events:{
+  //     'onReady':function(e){
+  //       player.setPlaybackQuality("small");
+  //     }
+  //   }
+  // });
+  // if( player.getPlayerState() === YT.PlayerState.PLAYING
+  //   ||player.getPlayerState() === YT.PlayerState.BUFFERING ){
+
+  //   player.pauseVideo();
+  // }else{
+  //   player.playVideo();
+  // }
+  // player.load();
+  // player.play();
+  // console.log('playing');  
 })();
 </script>
 <script>
