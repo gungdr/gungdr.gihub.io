@@ -36,11 +36,11 @@ body, html{
   opacity: 0;
   z-index: 1;
   text-align: center;
-  -webkit-animation: intro 9s ease-out;
-  -moz-animation: intro 9s ease-out;
-  -ms-animation: intro 9s ease-out;
-  -o-animation: intro 9s ease-out;
-  animation: intro 9s ease-out;
+  -webkit-animation: intro 7s ease-out;
+  -moz-animation: intro 7s ease-out;
+  -ms-animation: intro 7s ease-out;
+  -o-animation: intro 7s ease-out;
+  animation: intro 7s ease-out;
 }
 
 .star-wars-intro .main-content{
@@ -118,11 +118,11 @@ body, html{
   text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
   opacity: 0;
   z-index: 1;
-  -webkit-animation: logo 5s ease-out 9s;
-  -moz-animation: logo 5s ease-out 9s;
-  -ms-animation: logo 5s ease-out 9s;
-  -o-animation: logo 5s ease-out 9s;
-  animation: logo 5s ease-out 9s;
+  -webkit-animation: logo 5s ease-out 7s;
+  -moz-animation: logo 5s ease-out 7s;
+  -ms-animation: logo 5s ease-out 7s;
+  -o-animation: logo 5s ease-out 7s;
+  animation: logo 5s ease-out 7s;
 }
 
 .star-wars-intro .main-logo > img {
