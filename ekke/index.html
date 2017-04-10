@@ -87,7 +87,7 @@
 		},
 		methods:{
 			random :function(){
-				this.$http.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=monty+python+quotes").then(function(response){
+				this.$http.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=monty+python+quotes").then(function(response){
 					this.src = response.body.data.image_url;
 				});
 			}
